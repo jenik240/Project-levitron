@@ -73,14 +73,27 @@ f-function to differentiate
 use f in format f(x,y,z,*args)
 *args-other arguments of of f
 """
-import numpy as np
-from numba import jit, njit
 
 def gradient_point(x,y,z,h,f,*args):
     g_x=(f(x+h,y,z,*args)-f(x-h,y,z,*args))/(2*h)
     g_y=(f(x,y+h,z,*args)-f(x,y-h,z,*args))/(2*h)
     g_z=(f(x,y,z+h,*args)-f(x,y,z-h,*args))/(2*h)
     return np.array([g_x,g_y,g_z])
+
+"""
+Generate discretized current elements representing a ring magnet.
+
+r1      - inner radius of the ring magnet
+r2      - outer radius of the ring magnet
+h       - magnet height
+M_0     - magnetization magnitude
+z_0     - vertical offset of the magnet
+d       - discretization step
+
+Returns:
+x,y,z   - coordinates of current elements
+k_x,k_y,k_z - components of equivalent surface current density
+"""
 
 def ring(r1,r2,h,M_0,z_0,d):
     pi=np.pi
