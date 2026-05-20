@@ -14,6 +14,7 @@ Install required packages using:
 
 ```bash
 pip install numpy matplotlib numba
+```
 
 # Repository structure
 
