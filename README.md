@@ -17,7 +17,7 @@ pip install numpy matplotlib numba
 ```
 
 # Repository structure
-
+```bash
 project/
 ├── main.py
 ├── computational.py/
@@ -30,5 +30,5 @@ project/
     ├── get_mass
     ├── upper_spin  
     └── lower_spin
-
+```
 
