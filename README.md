@@ -31,4 +31,5 @@ project/
     ├── upper_spin  
     └── lower_spin
 ```
-
+# Videos
+Repository contains video attachment to bachelor thesis.
