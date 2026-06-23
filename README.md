@@ -1,7 +1,7 @@
 # Project-levitron
 # Levitron Numerical Simulation
 
-This repository contains a numerical simulation of a magnetically levitating spinning top (Levitron). The project combines analytical stability analysis with numerical integration of the equations of motion and numerical evaluation of the magnetic field. Detailed description of the mathematical model and numerical methods is provided in the accompanying bachelor thesis. Bachelor thesis can be found on XXX. If is script main.py runned with deafult parameters image same as reference_result.pdf should be plotted.
+This repository contains a numerical simulation of a magnetically levitating spinning top (Levitron). The project combines analytical stability analysis with numerical integration of the equations of motion and numerical evaluation of the magnetic field. Detailed description of the mathematical model and numerical methods is provided in the accompanying bachelor thesis. Bachelor thesis can be found [here](https://hdl.handle.net/10467/180740). If is script main.py runned with deafult parameters image same as reference_result.pdf should be plotted.
 
 # Requirements
 
